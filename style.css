@@ -1,0 +1,62 @@
+:root{
+  --colorDark: rgb(31 41 55);
+  --colorLight: rgb(107 114 128);
+}
+
+/* .coba{
+  border: 1px solid;
+} */
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-brand {
+  font-family: 'Nunito', sans-serif;
+  color: var(--colorDark) !important;
+  font-weight: 800;
+  font-size: 35px;
+}
+.navbar-link{
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+.navbar-link .active{
+  color: var(--colorDark) !important;
+}
+.main-header{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--colorDark);
+}
+@media (min-width: 576px) {
+  .main-header{
+    font-size: 4rem;
+  }
+}
+.text-content{
+  letter-spacing: 0.025rem;
+  font-size: 0.875rem;
+  color: var(--colorLight);
+}
+.my-photo{
+  object-fit: cover;
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.section-header{
+  font-weight: bold;
+}
+.card-title{
+  font-weight: bold;
+}
+.card-img-top{
+  height: 200px;
+}
+section{
+  scroll-margin-top: 5rem;
+}
